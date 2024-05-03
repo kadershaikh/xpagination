@@ -61,7 +61,7 @@ function XPagination() {
         </tbody>
       </table>
       <div style={{ textAlign: "center", marginTop: "20px" }}>
-        <button onClick={prevPage} disabled={currentPage === 1}>
+        <button onClick={prevPage}>
           Previous
         </button>
         <span style={{ margin: "0 10px" }}>{currentPage}</span>
